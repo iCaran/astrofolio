@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const pageTitle = "Scriptorium";
+---
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="RaccoonLaptopGif" src="/blog.webp"/>
+    </div>
+    <h2>Big Thoughts and Small Thinks</h2>
+    <ul role="list" class="link-card-grid">
+        <Card
+            url="https://vicharamanjari.onrender.com/posts/cgpa/"
+            image="/pixlr-image-generator-65dcd8ee-0207-4409-9a93-0a2386c4de81 (1)-min.png"
+            title="Skills vs Scores"
+            body="A Balance between Skills and Scores | CGPA in College"
+        />
+        <Card
+            url="https://vicharamanjari.onrender.com/posts/hwh-to-bbs/"
+            image="/pixlr-image-generator-65dcd8ee-0207-4409-9a93-0a2386c4de81 (1)-min.png"
+            title="Job Trafficking "
+            body="The Informal Jobs Trafficking which happens Everyday, Unaccounted for in the Country."
+        />
+    </ul>
+    <h2>YouTube</h2>
+    <ul role="list" class="link-card-grid">
+        <Card
+            url="https://www.youtube.com/watch?v=6B_-L1sFpeQ"
+            image="/6B_-L1sFpeQ-HQ.jpg"
+            title="India Strong (Remove Biryani)"
+            body="A lighthearted history meme. No offfence intended, viewer caution is advised."
+        />
+    </ul>
+</Layout>
+

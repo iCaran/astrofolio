@@ -5,13 +5,13 @@ image:
     url: '/Screenshot 2024-08-09 at 15-35-45 https __personality-kuka.web.app.png'
     alt: 'Personality Result'
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+    url: '/Screenshot 2024-08-09 at 20-34-55 Quiz App.png'
+    alt: 'home'
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+    url: '/Screenshot 2024-08-09 at 15-35-45 https __personality-kuka.web.app.png'
+    alt: 'result'
 platform: Web
-stack: Astro, JavaScript
+stack: Flutter, Google AI
 website: https://personality-kuka.web.app/
 github: https://github.com/iCaran/Personality-Quiz-App
 ---

@@ -5,15 +5,19 @@ image:
     url: '/Screenshot from 2024-08-09 16-30-56.png'
     alt: 'GitHub wallpaper'
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+    url: '/Screenshot from 2024-08-09 16-30-56.png'
+    alt: 'ss1'
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
-platform: Web
-stack: Astro, JavaScript
+    url: '/Screenshot from 2024-08-09 20-47-12.png'
+    alt: 'ss2'
+platform: Shell
+stack: Python, Bard API, Bash
 website: https://github.com/iCaran/Chat-With-Youtube
 github: https://github.com/iCaran/Chat-With-Youtube
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+A tool for you to go beyond just watching your Youtube videos.
+
+This tool uses BardAPI to summarize any Youtube video you may give it. Apart from that, you can treat it as a normal conversation with a chatbot (Bard in this case), since that is what it essentially is.
+
+This tool was intended to be used as a research tool, where you take the topics discussed in a video, and then start a whole thread or a rabbit hole based on it, as demonstrated below:
